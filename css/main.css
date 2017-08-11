@@ -103,23 +103,31 @@ body {
     margin: 0 5%;    
 }
 
-.sss1 {
-    width: 60%;
-    background-color: blue;
-    float: left;
+.contact-info {   
+    font: 14px/24px Helvetica, Helvetica Neue, Arial;
+    color: white;
+    text-align: center; 
+    margin-top: 0px;
+    margin-bottom: 10px;    
+}    
+
+.footer-message {
+    padding-top: 6px;    
 }
 
-.sss2 {
-    width: 40%;
-    background-color: yellow;  
-    float: left;  
+.job-section {
+    padding-top: 20px;
 }
 
-.contact-info {
-    width: 40%;
+.job-title {
+    width: 60%;    
+    float: left;    
+}
+
+.job-length {
+    width: 40%;    
     text-align: right;
-    float: left; 
-    background-color: yellow;  
+    float: left;    
 }
 
 /* ===================
@@ -131,8 +139,15 @@ body {
     background: #f16529;
 }
 
+.footer-container {
+    border-bottom: 4px solid #e44d26;
+    background: #f16529;
+    text-align: center;
+}
+
 .title {
     color: white;
+    text-align: center;
 }
 
  .resume-section {
@@ -149,6 +164,10 @@ body {
 
 .thicker-bar {
     background-color: #e44d26;
+    margin: 1px;
+}
+
+.thinner-bar {
     margin: 1px;
 }
 
@@ -249,6 +268,14 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 1140px) {
+
+    /* MAXIMUM WIDTH */
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
@@ -259,6 +286,15 @@ body {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
+    
+ /* This seems to be deleting always...   
+    /* .header-container { 
+        border-bottom: none;
+    }
+
+    .footer-container {
+        border-bottom: none;
+    } */
 }
 
 /* ==========================================================================
@@ -270,9 +306,7 @@ body {
 @media print {
     *,
     *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *:after {
         background: transparent !important;
         color: #000 !important; /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
