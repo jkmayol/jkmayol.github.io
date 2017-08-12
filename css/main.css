@@ -92,7 +92,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Main outline styles
    ========================================================================== */
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
@@ -108,11 +108,19 @@ body {
     color: white;
     text-align: center; 
     margin-top: 0px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+    padding-top: 2px;
+    border-top: 1px solid #ccc;
 }    
 
 .footer-message {
-    padding-top: 6px;    
+    padding-top: 6px;
+}
+
+section.resume-section h2 {
+    font-size: 1.17em;
+    border-bottom: 1px solid  #e44d26;
+    margin: 0px;
 }
 
 .job-section {
@@ -142,17 +150,15 @@ body {
 .footer-container {
     border-bottom: 4px solid #e44d26;
     background: #f16529;
-    text-align: center;
+    text-align: center;    
 }
 
 .title {
     color: white;
-    text-align: center;
+    text-align: center;    
 }
 
- .resume-section {
-    /* border: 1px solid red;
-    background-color: lightgrey; */
+ .resume-section {    
     padding-top: 30px;
 } 
 
@@ -161,33 +167,6 @@ body {
     background-color: yellow;
     padding-top: 30px;     
 }   */
-
-.thicker-bar {
-    background-color: #e44d26;
-    margin: 1px;
-}
-
-.thinner-bar {
-    margin: 1px;
-}
-
-.section-header {
-    margin: 0px;    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
