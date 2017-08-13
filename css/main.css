@@ -103,45 +103,6 @@ body {
     margin: 0 5%;    
 }
 
-.contact-info {   
-    font: 14px/24px Helvetica, Helvetica Neue, Arial;
-    color: white;
-    text-align: center; 
-    margin-top: 0px;
-    margin-bottom: 10px;
-    padding-top: 2px;
-    border-top: 1px solid #ccc;
-}    
-
-.footer-message {
-    padding-top: 6px;
-}
-
-section.resume-section h2 {
-    font-size: 1.17em;
-    border-bottom: 1px solid  #e44d26;
-    margin: 0px;
-}
-
-.job-section {
-    padding-top: 20px;
-}
-
-.job-title {
-    width: 60%;    
-    float: left;    
-}
-
-.job-length {
-    width: 40%;    
-    text-align: right;
-    float: left;    
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
 .header-container {
     border-bottom: 4px solid #e44d26;
     background: #f16529;
@@ -153,20 +114,49 @@ section.resume-section h2 {
     text-align: center;    
 }
 
+/* Title & Nav */
 .title {
     color: white;
     text-align: center;    
 }
+.contact-info {   
+    font: 14px/24px Helvetica, Helvetica Neue, Arial;
+    color: white;
+    text-align: center; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    border-top: 1px solid #ccc;
+}    
 
- .resume-section {    
+/* Resume section */
+.resume-section {    
     padding-top: 30px;
 } 
+section.resume-section h2 {
+    font-size: 1.17em;
+    border-bottom: 1px solid  #e44d26;
+    margin: 0px;
+}
 
-   /* section {
-    border: 1px solid black;
-    background-color: yellow;
-    padding-top: 30px;     
-}   */
+/* Job section */
+.job-section {
+    padding-top: 20px;
+}
+.job-title {
+    width: 60%;    
+    float: left;    
+}
+.job-length {
+    width: 40%;    
+    text-align: right;
+    float: left;    
+}
+
+/* Footer */
+.footer-message {
+    padding-top: 6px;
+}
 
 /* ==========================================================================
    Helper classes
