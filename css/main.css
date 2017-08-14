@@ -143,14 +143,18 @@ section.resume-section h2 {
 .job-section {
     padding-top: 20px;
 }
+.job-position {
+    overflow: hidden;
+}
 .job-title {
-    width: 60%;    
-    float: left;    
+    width: 60%;   
+    float: left;
+}
+.job-location {
+    float: left; 
 }
 .job-length {
-    width: 40%;    
-    text-align: right;
-    float: left;    
+    text-align: right;   
 }
 
 /* Footer */
@@ -246,8 +250,22 @@ section.resume-section h2 {
     }
 }
 
-@media only screen and (min-width: 35em) {
+/* @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+/*} */
+
+@media only screen and (max-width: 37em) {
+    /* Style adjustments for viewports that meet the condition */
+    .job-title {
+        width: 100%;    
+        float: none;
+    }
+    .job-location {
+        float: none;          
+    }
+    .job-length {          
+        text-align: left;        
+    } 
 }
 
 @media print,
@@ -255,7 +273,7 @@ section.resume-section h2 {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
-    
+      
  /* This seems to be deleting always...   
     /* .header-container { 
         border-bottom: none;
