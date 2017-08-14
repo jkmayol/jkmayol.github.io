@@ -151,6 +151,7 @@ section.resume-section h2 {
     float: left;
 }
 .job-location {
+    width: 100%;
     float: left; 
 }
 .job-length {
