@@ -138,6 +138,10 @@ section.resume-section h2 {
     border-bottom: 1px solid  #e44d26;
     margin: 0px;
 }
+section.resume-section h3 {
+    font-size: 1em;
+    margin: 0px;
+}
 
 /* Job section */
 .job-section {
