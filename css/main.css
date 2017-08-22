@@ -269,7 +269,9 @@ section.resume-section h3 {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
-    .header-container {
+
+/* This does not work right - investigate... */
+    /* .header-container {
         border-bottom: none;
     }
 
@@ -283,7 +285,7 @@ section.resume-section h3 {
 
     .footer-container {
         visibility: hidden;
-    }
+    } */
 }
 
 /* ==========================================================================
