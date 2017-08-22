@@ -95,7 +95,7 @@ textarea {
    Main outline styles
    ========================================================================== */
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 1em/1.625em Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -120,7 +120,7 @@ body {
     text-align: center;    
 }
 .contact-info {   
-    font: 14px/24px Helvetica, Helvetica Neue, Arial;
+    font: 0.875em/1.5em Helvetica, Helvetica Neue, Arial;
     color: white;
     text-align: center; 
     margin-top: 0px;
