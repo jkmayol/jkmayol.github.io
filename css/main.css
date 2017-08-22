@@ -100,7 +100,7 @@ body {
 
 .wrapper {
     width: 90%;
-    margin: 0 5%;    
+    margin: 0 5%;
 }
 
 .header-container {
@@ -111,28 +111,30 @@ body {
 .footer-container {
     border-bottom: 4px solid #e44d26;
     background: #f16529;
-    text-align: center;    
+    text-align: center;
 }
 
 /* Title & Nav */
 .title {
     color: white;
-    text-align: center;    
+    text-align: center;
 }
-.contact-info {   
-    font: 0.875em/1.5em Helvetica, Helvetica Neue, Arial;
+.contact-info {
     color: white;
-    text-align: center; 
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 10px;
     padding-top: 2px;
     border-top: 1px solid #ccc;
-}    
+}
+.contact-info a:link, a:visited {
+    color:white;
+}
 
 /* Resume section */
-.resume-section {    
+.resume-section {
     padding-top: 30px;
-} 
+}
 section.resume-section h2 {
     border-bottom: 1px solid  #e44d26;
     margin: 0px;
@@ -149,15 +151,15 @@ section.resume-section h3 {
     overflow: hidden;
 }
 .job-title {
-    width: 60%;   
+    width: 60%;
     float: left;
 }
 .job-location {
     width: 100%;
-    float: left; 
+    float: left;
 }
 .job-length {
-    text-align: right;   
+    text-align: right;
 }
 
 /* ==========================================================================
@@ -248,22 +250,18 @@ section.resume-section h3 {
     }
 }
 
-/* @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-/*} */
-
 @media only screen and (max-width: 37em) {
     /* Style adjustments for viewports that meet the condition */
     .job-title {
-        width: 100%;    
+        width: 100%;
         float: none;
     }
     .job-location {
-        float: none;          
+        float: none;
     }
-    .job-length {          
-        text-align: left;        
-    } 
+    .job-length {
+        text-align: left;
+    }
 }
 
 @media print,
@@ -271,15 +269,21 @@ section.resume-section h3 {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
-      
- /* This seems to be deleting always...   
-    /* .header-container { 
+    .header-container {
         border-bottom: none;
     }
 
+    .title h1 {
+        margin-bottom: 4px;
+    }
+
+    section.resume-section h2 {
+        border-bottom-color: gray;
+    }
+
     .footer-container {
-        border-bottom: none;
-    } */
+        visibility: hidden;
+    }
 }
 
 /* ==========================================================================
