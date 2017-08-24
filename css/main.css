@@ -281,11 +281,11 @@ section.resume-section h3 {
 
     section.resume-section h2 {
         border-bottom-color: gray;
-    }*/
+    }
 
     .footer-container {
         visibility: hidden;
-    } 
+    } */
 }
 
 /* ==========================================================================
@@ -362,5 +362,21 @@ section.resume-section h3 {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+
+    .header-container {
+        border-bottom: none;
+    }
+
+    .title h1 {
+        margin-bottom: 4px;
+    }
+
+    section.resume-section h2 {
+        border-bottom-color: gray;
+    }
+
+    .footer-container {
+        visibility: hidden;
     }
 }
