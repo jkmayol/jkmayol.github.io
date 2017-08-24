@@ -364,4 +364,8 @@ section.resume-section h3 {
     .footer-container {
         visibility: hidden;
     }
+
+    .contact-info a[href]:after {
+        content: "";
+    }
 }
