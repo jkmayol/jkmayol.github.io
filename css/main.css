@@ -269,23 +269,6 @@ section.resume-section h3 {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
-
-/* This does not work right - investigate... */
-    /* .header-container {
-        border-bottom: none;
-    }
-
-    .title h1 {
-        margin-bottom: 4px;
-    }
-
-    section.resume-section h2 {
-        border-bottom-color: gray;
-    }
-
-    .footer-container {
-        visibility: hidden;
-    } */
 }
 
 /* ==========================================================================
@@ -364,10 +347,11 @@ section.resume-section h3 {
         page-break-after: avoid;
     }
 
+    /* Update class defs styles */
     .header-container {
         border-bottom: none;
     }
-
+    
     .title h1 {
         margin-bottom: 4px;
     }
