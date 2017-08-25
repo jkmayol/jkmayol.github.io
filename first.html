@@ -16,12 +16,19 @@
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>	
 	
 	<style type="text/css">
-		h2 {color:blue}
+		h2 {color:blue;
+			text-shadow: 3px 3px 3px darkblue;
+		}
 		.sample {background-color: yellowgreen}
 		.IEContainer {background-color: yellow}
 		.pari {background-color: pink}
 		UL.circle {list-style-type: circle}
 		summary {background-color: gray;}
+		p:nth-of-type(2n){
+			background: linear-gradient(orange, green);
+			
+		}
+
 	</style> 
 </head>	
 <body>	
@@ -34,22 +41,16 @@
 	</header>
 	
 	<main>
-		<input type="datetime"/>
-			
-	<aside>
-		<details open>
-			<summary>Features3</summary>
-			<ul>
-				<li>one</li>
-				<li>boilerplate.com (front-end template)</li>
-				<li>modernizr.com (detects current browser feature support </li>
-				<li>caniuse.com (looks up current html5 tag support)</li>
-				<li>html5please.com (api support status, and workarounds)</li>
-			</ul>
-		</details>	
-	</aside>
-
-	<h1>Ames Boo</h1>
+		<input type="date" placeholder="2017-08-34"/>
+		<p>test</p>
+		<p>test</p>
+		<p>test</p>
+		<p>test</p>
+	<form>
+		Email:  <input type="email" placeholder="userID"/>
+		
+	</form>
+		1>Ames Boo</h1>
 	<h2>Overview</h2>
 	<progress max="100" value="59"></progress>
 	<p>Blurb about crap</p>

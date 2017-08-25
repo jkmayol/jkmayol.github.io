@@ -118,6 +118,7 @@ body {
 .title {
     color: white;
     text-align: center;
+    text-shadow: 3px 3px 3px #9B2304;
 }
 .contact-info {
     color: white;
