@@ -280,6 +280,9 @@ section.resume-section h3 {
     .job-length {
         text-align: left;
     }
+    body {
+        line-height: 1.25em;
+    }
 }
 
 @media print,
