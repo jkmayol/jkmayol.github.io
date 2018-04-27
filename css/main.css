@@ -170,6 +170,71 @@ section.resume-section h3 {
     text-align: right;
 }
 
+/* Top Navigation bar */
+.topnav {
+    background-color: #333;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li.right {
+    float: right;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+            
+.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+.topnav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a.link {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -259,7 +324,7 @@ section.resume-section h3 {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-   @media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1140px) {
        
     /* MAXIMUM WIDTH */
     .wrapper {
@@ -282,6 +347,14 @@ section.resume-section h3 {
     }
     body {
         line-height: 1.25em;
+    }
+
+    nav.topnav ul li.right, nav.topnav li {
+        float: none;
+    }
+
+    .topnav li.dropdown {
+        display: inline;
     }
 }
 
