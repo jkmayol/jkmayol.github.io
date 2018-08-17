@@ -20,11 +20,11 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <nav class="topnav">
+        <!-- <nav class="topnav" id="myTopnav">
             <div class="wrapper clearfix">           
                 <ul>
                     <li><a class="active" href="#home">Home</a></li>
-                    <li><a href="#news">News</a></li>
+                    <li><a href="#news">News &#9776</a></li>
                     <li class="dropdown">
                         <a href="javascript:void(0)">Dropdown</a>
                         <div class="dropdown-content">
@@ -36,7 +36,29 @@
                     <li class="right"><a href="bootstrapver.html">About</a></li>
                 </ul>
             </div>                       
-        </nav>
+        </nav>                                -->
+        
+        <nav class="navCanvas">
+            <div class="wrapper clearfix">
+                <div class="topnav" id="nonBootNav">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li class="icon">
+                            <a href="javascript:void(0);" onclick="toogleBurgerMenu(this)">
+                                <div class="burger" >
+                                    <div class="bun1"></div>
+                                    <div class="bun2"></div>
+                                    <div class="bun3"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>                        
+                </div>
+            </div>
+        </nav>          
 
         <main>
             <article>
@@ -46,7 +68,7 @@
                             <div class="title">
                                 <h1>James Mayol</h1>
                             </div>
-                            <p class="contact-info">Cumberland, Rhode Island &nbsp;| &nbsp;401.659.4060 &nbsp;| &nbsp;
+                            <p class="contact-info">Lincoln, Rhode Island &nbsp;| &nbsp;401.659.4060 &nbsp;| &nbsp;
                                 <a href="mailto:jmayol@yahoo.com?subject=resume">jmayol@yahoo.com</a>
                             </p>
                         </header>
@@ -209,12 +231,11 @@
                 </footer>
             </div>
         </div>
-        
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
     </body>
 </html>
