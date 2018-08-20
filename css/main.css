@@ -372,7 +372,8 @@ section.resume-section h3 {
         padding-left: 16px;
     }
     .topnav .logoBrand {    
-        padding-bottom: 6px;        
+        padding-bottom: 6px;
+        font-size: 20px;        
     }  
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
