@@ -365,6 +365,12 @@ section.resume-section h3 {
       float: right;
       display: block;      
     }
+    .topnav a {
+        padding-left: 2px;
+    }
+    .topnav li.icon > a{
+        padding-left: 16px;
+    }
     .topnav .logoBrand {    
         padding-bottom: 6px;        
     }  
