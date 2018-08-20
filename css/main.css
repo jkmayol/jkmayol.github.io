@@ -190,11 +190,11 @@ section.resume-section h3 {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px 10px 16px;  
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
 }
-.topnav a:hover {
+.topnav a:not(.logoBrand):hover {
     background-color: #ddd;
     color: black;
 }
@@ -204,6 +204,15 @@ section.resume-section h3 {
 }
 .topnav .icon {
     display: none;    
+}
+.topnav .logoBrand {    
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.topnav .navLogo {
+    padding-bottom: 2px; 
+    margin-right: 4px;
 }
 
 /* Navigation - Hamburger menu look and feel */
@@ -354,7 +363,10 @@ section.resume-section h3 {
     .topnav li:not(:first-child) {display: none;}
     .topnav li.icon {
       float: right;
-      display: block;
+      display: block;      
+    }
+    .topnav .logoBrand {    
+        padding-bottom: 6px;        
     }  
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
