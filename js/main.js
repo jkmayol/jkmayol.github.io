@@ -5,7 +5,7 @@ function burgerFlip(x) {
 
 // Used for non-bootstrap version of resposive menu
 function toogleBurgerMenu(x) {
-    var x = document.getElementById("nonBootNav");
+    var x = document.getElementById("nonBootNavId");
     if (x.className === "topnav") {
         x.className += " responsive";
         burgerFlip(x);
